@@ -1,6 +1,6 @@
 .calc {
-    background: rgb(55, 195, 219);
-    color: black;
+    background: black;
+    color: white;
     width: 200px;
     padding: 10px;
     border-radius: 10px;
@@ -8,31 +8,31 @@
     box-shadow: 5px 6px rgb(36, 28, 28);
 }
 .calc input {
-    background: darkblue;
+    background: black;
     color: rgb(255, 255, 255);
     border-radius: 5px;
     padding: 5px;
 }
 #spTotal {
-    background: rgb(4, 4, 219);
+    background: gray;
     color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
 .calc input:focus {
-    background: black;
-    color: yellow;
+    background: white;
+    color: wheat;
 }
 .calc button {
-    background: rgb(0, 26, 255);
+    background: gray;
     color: rgb(255, 254, 254);
     border-radius: 10px;
     padding: 5px;
     margin-top: 10px;
 }
 .calc button:hover {
-    background: rgb(11, 24, 141);
+    background:black;
     color: rgb(255, 254, 254);
     cursor: pointer;
 }
@@ -40,10 +40,19 @@
     text-align: start;
     border-style: dashed;
     border-radius: dotted;
-    border-color: yellow;
+    border-color:white;
     border-width: 1px;
     border-radius: 4px;
     background: whitesmoke;
     color: rebeccapurple;
     margin-top: 10px;
+}
+.calcF {
+    display: none;
+}
+#input-calcFin {
+    display: none;
+}
+#input-calcFin:checked + .calc .calcF {
+    display: block;
 }
