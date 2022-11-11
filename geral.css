@@ -9,31 +9,31 @@
 }
 .calc input {
     background: black;
-    color: rgb(255, 255, 255);
+    color: white;
     border-radius: 5px;
     padding: 5px;
 }
 #spTotal {
     background: gray;
-    color: rgb(255, 255, 255);
+    color: white;
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 10px;
 }
 .calc input:focus {
     background: white;
-    color: wheat;
+    color: black;
 }
 .calc button {
-    background: gray;
-    color: rgb(255, 254, 254);
+    background: black;
+    color: white;
     border-radius: 10px;
     padding: 5px;
     margin-top: 10px;
 }
 .calc button:hover {
-    background:black;
-    color: rgb(255, 254, 254);
+    background:white;
+    color: black;
     cursor: pointer;
 }
 #spLista {
@@ -43,8 +43,8 @@
     border-color:white;
     border-width: 1px;
     border-radius: 4px;
-    background: whitesmoke;
-    color: rebeccapurple;
+    background: black;
+    color: white;
     margin-top: 10px;
 }
 .calcF {
